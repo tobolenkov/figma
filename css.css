@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-image: url("backgroung.png");
+    background-repeat: no-repeat;
+    background-size: 1440px§;
+    font-family: poppins;
+    height: 1024px;
+    width: 1428px;
+}
+
+button {
+    padding: 0;
+    position: absolute;
+    display: inline-block;
+    color: #001958;
+    background-color:#FFFFFF ;
+    border: solid 1px transparent;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    width: 286px;
+    height: 57px;
+    cursor: pointer;
+    z-index: 100;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+.button1 {
+    margin: 38px 52px 929px 1102px;
+}
+.button1:hover{
+    background-color: #dbdbdb;
+}
+.button1:active{
+    background-color: #001958 ;
+    color: #FFFFFF;
+}
+.button2 {
+    margin: 534px 913px 433px 241px;
+}
+.button2:hover{
+    background-color: #dbdbdb;
+}
+.button2:active {
+    background-color: #001958;
+    color: #FFFFFF;
+}
+
+.logo{
+    position: absolute;
+    width=80;
+    height=120;
+    padding: 216px 1238px 436px 122px;
+}
+.figma-africa{
+
+    padding-left: 241px;
+    padding-top: 205px;
+    position: absolute;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+}
+.inter{
+    padding: 249px 928px 463px 241px;
+    position: absolute;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+}
+.conf{
+    padding: 296px 959px 416px 241px;
+    position: absolute;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+}
+.december {
+    position: absolute;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 383px;
+    padding-left: 241px;
+}
+.kigal{
+    position: absolute;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 424px;
+    padding-left: 241px;
+}
+.limited{
+    position: absolute;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 603px;
+    padding-left: 241px;
+}
+.our-conf{
+    position: absolute;
+    color: #001958;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    padding-top: 801px;
+    padding-left: 400px;
+
+}
+.our-conf2{
+    display: none;
+}
+.countries{
+    position: absolute;
+    color: #4F4F4F;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 891px;
+    padding-left: 240px;
+}
+.cities{
+    position: absolute;
+    color: #4F4F4F;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 891px;
+    padding-left: 535px;
+}
+.speakers{
+    position: absolute;
+    color: #4F4F4F;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 891px;
+    padding-left: 788px;
+}
+.attendees{
+    position: absolute;
+    color: #4F4F4F;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 891px;
+    padding-left: 1085px;
+}
+.c12{
+    position: absolute;
+    color: #828282;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    padding-top: 918px;
+    padding-left: 265px;
+}
+.c30{
+    position: absolute;
+    color: #828282;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    padding-top: 918px;
+    padding-left: 532px;
+}
+.c120{
+    position: absolute;
+    color: #828282;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    padding-top: 918px;
+    padding-left: 795px;
+}
+.c750{
+    position: absolute;
+    color: #828282;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    padding-top: 918px;
+    padding-left: 1075px;
+}
+@media screen and (max-width: 360px){
+    html{
+        height: 1024px;
+        max-width: 360px;
+        background-image: url("bgmobile.png");
+    }
+    .logo{
+        width: 48px;
+        height: 72px;
+        padding-left: 20px;
+        padding-top: 60px;
+    }
+    .figma-africa{
+        padding-left: 20px;
+        padding-top: 150px;
+    }
+    .inter{
+        padding-left: 20px;
+        padding-top: 193px;
+    }
+    .conf{
+        padding-left: 20px;
+        padding-top: 237px;
+    }
+    .december{
+        padding-left: 20px;
+        padding-top: 328px;
+    }
+    .kigal{
+        padding-left: 20px;
+        padding-top: 369px;
+    }
+    .button1{
+        display: none;
+    }
+    .button2{
+        margin-left:20px;
+        margin-top: 479px;
+    }
+    .limited{
+        padding-left: 20px;
+        padding-top: 548px;
+    }
+    .our-conf{
+        display: none;
+    }
+    .our-conf2{
+        display: inline-block;
+        padding-left: 20px;
+        padding-top: 664px;
+        position: absolute;
+        color: #001958;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .countries{
+        padding-top: 770px;
+        padding-left: 38px;
+    }
+    .cities{
+        padding-top: 770px;
+        padding-left: 238px;
+    }
+    .speakers{
+        padding-top: 900px;
+        padding-left: 40px;
+    }
+    .attendees{
+        padding-top: 900px;
+        padding-left: 214px;
+    }
+    .c12{
+        padding-top: 797px;
+        padding-left: 63px;
+    }
+    .c30{
+        padding-top: 797px;
+        padding-left: 235px;
+    }
+    .c120{
+        padding-top: 927px;
+        padding-left: 47px;
+    }
+    .c750{
+        padding-top: 927px;
+        padding-left: 204px;
+    }
+
+}
