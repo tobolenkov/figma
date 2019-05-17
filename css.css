@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+html{
     background-image: url("backgroung.png");
     background-repeat: no-repeat;
     font-family: poppins;
@@ -211,7 +211,7 @@ button {
     margin-left: 1075px;
 }
 @media screen and (max-width: 360px){
-    body{
+    html{
         background-image: url("bgmobile.png");
         background-repeat: no-repeat;
         height: 1024px;
@@ -303,7 +303,7 @@ button {
 
 }
 @media screen and (max-width:768px) and (min-width: 361px) {
-    body{
+    html{
         background-image: url("bgtablet.png");
         height: 1024px;
         width: 768px;
@@ -400,7 +400,7 @@ button {
 
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
-    body{
+    html{
         background-image: url("bgTableLanscape.png");
         width: 1024px;
         height: 911px;
@@ -582,7 +582,7 @@ button {
 }
 @media screen and (min-width: 1600px){
 
-    body{
+    html{
         background-image: url('bgfull.png');
         width: 1920px;
         height: 1080px;
