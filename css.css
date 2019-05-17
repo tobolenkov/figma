@@ -258,8 +258,8 @@ button {
         display: none;
     }
     .our-conf2{
-        display: inline-block;
-        margin-left: 15px;
+        display: inline;
+        margin-left: 20px;
         margin-top: 664px;
         position: absolute;
         color: #001958;
@@ -578,11 +578,17 @@ button {
         margin-top: 787px;
         margin-left: 819.2px;
     }
+
 }
 @media screen and (min-width: 1441px){
-    
+
     body{
-        margin: 0 auto;
-        display: inline-block;
+        background-image: url('bgfull.png');
+    }
+    div{
+        margin-left: 13.6%;
+    }
+    form{
+        margin-left: 13.6%;
     }
 }
