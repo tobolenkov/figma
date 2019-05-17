@@ -255,10 +255,10 @@ button {
         margin-top: 548px;
     }
     .our-conf{
-        display: inline-block;
+        display: none;
     }
     .our-conf2{
-        display: none;
+        display: inline-block;
         margin-left: 20px;
         margin-top: 664px;
         position: absolute;
