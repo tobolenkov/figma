@@ -580,10 +580,12 @@ button {
     }
 
 }
-@media screen and (min-width: 1441px){
+@media screen and (min-width: 1600px){
 
     body{
         background-image: url('bgfull.png');
+        width: 1920px;
+        height: 1080px;
     }
     div{
         margin-left: 13.6%;
