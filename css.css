@@ -258,7 +258,7 @@ button {
         display: none;
     }
     .our-conf2{
-        display: inline-block;
+        display: inline;
         margin-left: 20px;
         margin-top: 664px;
         position: absolute;
